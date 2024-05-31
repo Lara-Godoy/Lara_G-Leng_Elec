@@ -4,9 +4,10 @@
 const int pi = 3.1415926535;
 
 int main(void){
-    int mod, ang, ejeX_red, ejeY_red;
+    int mod, ang;
     double ejeY, ejeX;
     double rad;
+    double ejeX_red, ejeY_red;
 
     printf("ingrese el modulo: \n");
     scanf("%d", &mod);
@@ -22,8 +23,8 @@ int main(void){
     ejeX_red = round(ejeX);
 
 //%f --> xq es float
-    printf("\nParte imaginaria redondeada: %f", ejeY_red);
-    printf("\nParte real redondeada: %f", ejeX_red);
+    printf("Parte imaginaria redondeada: %f", ejeY_red);
+    printf("\nParte imaginaria redondeada: %f", ejeX_red);
     printf("\n\nParte imaginaria sin redondear: %f", ejeY);
     printf("\nParte real sin redondear: %f", ejeX);
     return(0);
