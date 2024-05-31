@@ -19,4 +19,5 @@ int main(void){
         precio_pedido = (20 * precio_pedido)/100;
         printf("Debes abonar: %f", precio_pedido, "pesos");
     }
+    return 0;
 }
