@@ -9,7 +9,7 @@ int main(void){
     int num_secreto = 3587;
     int num_usuario;
 
-    printf("Ingresa tu intento: \n");
+    printf("Ingresa tu intento para adivinar un numero secreto: \n");
     scanf("%d", &num_usuario);
     while (num_usuario != num_secreto){
         if (num_usuario < num_secreto)
