@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-const int pi = 3.1415926535;
+const float pi = 3.1415926535;
 
 int main(void){
     int mod, ang;
