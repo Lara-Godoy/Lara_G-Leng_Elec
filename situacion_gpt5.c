@@ -6,7 +6,7 @@ Repetir el proceso hasta que el usuario adivine correctamente el número secreto
 #include <stdio.h>
 
 int main(void){
-    int num_secreto = 4298;
+    int num_secreto = 18830;
     int num_usuario, contador = 1;
 
     printf("Ingresa tu intento para adivinar un numero secreto: \n");
