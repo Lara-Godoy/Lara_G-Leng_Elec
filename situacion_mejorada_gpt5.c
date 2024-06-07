@@ -1,15 +1,21 @@
-/*Definir un número secreto en el código.
-Permitir al usuario ingresar sus intentos.
-Informar al usuario si su intento es demasiado alto, demasiado bajo o correcto.
-Repetir el proceso hasta que el usuario adivine correctamente el número secreto.*/
+//Agregar niveles
+//Numero secreto aleatorio
+//Imprimir coincidencias
 
 #include <stdio.h>
+#include <string.h>
 
 int main(void){
+    char modo[10];
     int num_secreto = 5372863;
     int num_usuario, contador = 1;
 
-    printf("Ingresa tu intento para adivinar un numero secreto: \n");
+    printf("Bienvenido a adivina el numero.");
+    printf("Hay tres modos: \nIsi mode! \nMedium mode! \nTRYHARD MODE!");
+    printf("¿Cual queres jugar?");
+    scanf("%s", &modo);
+
+/*    printf("Ingresa tu intento para adivinar un numero secreto: \n");
     scanf("%d", &num_usuario);
     while (num_usuario != num_secreto){
         if (num_usuario < num_secreto){
@@ -22,6 +28,6 @@ int main(void){
     contador = contador + 1;
     }
     printf("Bien ahi, master, correcto. \n");
-    printf("Intentaste: %d", contador, "veces.");
+    printf("Intentaste: %d", contador, "veces.");*/
     return 0;
 }
