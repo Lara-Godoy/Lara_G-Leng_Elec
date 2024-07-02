@@ -58,7 +58,7 @@ int main(){
             if (resp_2 == 3)correctas++;
             else{incorrectas++;}
             printf("Que me gusta jugar mas?: \n");
-            printf("1. Minecraft \n2. Browl \n3. Buscaminas\n");
+            printf("1. Minecraft \n2. Browl \n3. Buscaminas\n1");
             scanf("%d", &resp_3);
             if (resp_3 == 1)correctas++;
             else{incorrectas++;}

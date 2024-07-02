@@ -8,7 +8,7 @@ int main(void){
     int notas_dadas, num;
     float cali, promedio, suma_total = 0.0;
     //suma_total = 0.0 para asegurarnos de que la variable comienza desde cero
-    printf("Ingresa las notas que te dieron: \n");
+    printf("Ingresa la cantidad de las notas que te dieron: \n");
     scanf("%d", &notas_dadas);
     for(num = 0; num < notas_dadas; num++){
         printf("Ingresa la nota %d: ", num + 1);
@@ -17,6 +17,6 @@ int main(void){
         suma_total += cali;
     }
     promedio = suma_total / notas_dadas;
-    printf("Promedio: %.2f\n", promedio);
+    printf("Promedio general: %.2f\n", promedio);
     return 0;
 }
